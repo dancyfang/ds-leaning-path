@@ -1,10 +1,10 @@
 # A Gallary of Deeep Learning Network Structures
 
 ## 1. CNN
-When doing image recognition, the size of input could easily get extremely large (n*n*3). Using fully connected layers in this case will cause the number of
+When doing image recognition, the size of input could easily get extremely large (n*n*3). Using fully connected (FC) layers in this case will cause the number of
 parameters to spike. Luckily, Convolutional Neural Network(CNN) is a structure designed for this kind of problems.
 
-pic
+![convolution]()
 
 ### 1) advantages
 a. Fewer parameters than Fully Connect network
@@ -27,3 +27,26 @@ d. choice of activation functions
 e. pooling
 
 ### 3) popular networks
+a. LeNet
+
+![LeNet]()
+
+7 layers including: convolutional, pooling and FC.
+
+b. AlexNet
+
+![AlexNet]()
+
+c. GoogleNet(Inception Net)
+
+![GoogleNet]()
+
+Inception: stack the outputs of multiple filters at the same level. Solves the issue of uncertainty in kernal size. 1 * 1 filter is used to reduce the number of channels.
+
+d. ResNet
+
+Gradient vanishing
+
+
+
+
