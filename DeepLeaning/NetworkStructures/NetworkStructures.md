@@ -45,7 +45,11 @@ Inception: stack the outputs of multiple filters at the same level. Solves the i
 
 d. ResNet
 
-Gradient vanishing
+![ResNet]()
+
+Gradient vanishing / exploding: As we do backpropagation, the more layers we have, the more gradient terms we have to multiply on the gradients of the parameters. If those gradient terms are smaller than 1, we could have gradient vanishing problem. Otherwise, if larger than 1, gradient exploding may happen.
+
+ResNet creates some shortcuts in the structure, which solves the gradient vanishing/exploding problem of very deep NN. 
 
 
 
